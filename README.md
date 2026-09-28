@@ -23,6 +23,10 @@ You are developing an application that helps users manage and control various el
 ### UML Diagram
 
 ```mermaid
+---
+config:
+    layout: elk
+---
 classDiagram
     direction LR
 
