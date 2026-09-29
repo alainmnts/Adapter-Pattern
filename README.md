@@ -86,5 +86,3 @@ classDiagram
     Main --> SmartphoneAdapter : creates
     Main --> PowerOutlet : uses
 ```
-
-This design follows the Adapter Pattern by keeping a common `PowerOutlet` interface while adapting different device-specific APIs to the same plug-in behavior.
